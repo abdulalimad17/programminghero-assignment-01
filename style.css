@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    background-color: rgb(112, 103, 103);
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    /* gap: 90px; */
+}
+
+#logo-devcon img{
+    /* font-size: 10px */
+    width: 105px;
+}
+
+#navlink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+#navlink a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #585353;
+}
+
+#nav-btn button{
+    padding: 7px 23px;
+    background-color: rgb(60, 60, 250);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-weight: 550;
+    font-size: 13px;
+}
