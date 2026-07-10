@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: inter;
 }
 
 html body{
@@ -64,16 +65,30 @@ header{
 }
 
 #banner-content{
+    color: #fff;
+    /* background-color: red; */
+    /* height: 70%; */
+    padding: 110px ;
+    gap: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    color: #fff;
-    padding: 120px;
+    justify-content: center;
+    text-align: center;
+}
+
+#heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
-#smalltext{
-    text-align: center;
-    color: #baafaf;
+#heading h1{
+    font-size: 50px;
+}
+
+#heading p{
+    color: #a8a2a2;
 }
