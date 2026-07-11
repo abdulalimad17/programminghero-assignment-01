@@ -92,7 +92,7 @@ header{
     color: #a8a2a2;
 }
 
-main h1{
+.meetspeaker{
     padding: 45px ;
     /* background-color: red; */
     text-align: center;
@@ -135,4 +135,305 @@ main h1{
 .designation{
     color: #929090;
     font-size: 12px;
+}
+
+
+
+#spotbuying{
+    margin: 0px 0px 50px;
+}
+.buyspot{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 35px;
+    /* background-color: aqua; */
+}
+
+.deadline{
+    text-align: center;
+    /* background-color: red; */
+    margin: 8px auto 50px;
+    font-size: 12.5px;
+    letter-spacing: .2;
+    opacity: .5;
+    font-weight: 500;
+}
+
+#spotbuying hr{
+    width: 95%;
+    margin: 20px auto;
+
+}
+
+.cards{
+    /* background-color: aqua; */
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    justify-content: center;
+    gap: 80px;
+    /* height: ; */
+
+}
+
+.card{
+    height: 360px;
+    padding: 20px;
+    border: 1px solid rgb(197, 187, 187);
+    /* width: fit-content; */
+    width: 280px;
+    border-radius: 8px;
+}
+
+.card ul{
+    /* background-color: aqua; */
+    list-style-position: inside;
+    margin: 15px 15px 20px;
+}
+
+.card ul li::marker{
+    color: blue;
+} 
+.card ul li{
+    font-size: 12px;
+    /* line-height: 20px; */
+    margin-bottom: 7px;
+    opacity: .6;
+    letter-spacing: -0.5px;
+
+}
+
+.uncommon h5{
+    font-size: 10px;
+    font-weight: 600;
+    opacity: .6;
+    margin-bottom: 4px;
+}
+
+.uncommon h6{
+        font-size: 9px;
+        opacity: .6;
+        font-weight: 400;
+        /* margin-bottom: 4px; */
+}
+
+.unique-card{
+    background-color: rgb(6, 6, 63);
+}
+
+.unique-card h1 {
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.unique-card h5 {
+    font-size: 10px;
+    color: #82ceec;
+    font-weight: 600;
+    opacity: .7;
+    margin-bottom: 4px;
+}
+
+.unique-card h6 {
+    font-size: 9px;
+    color: #fff;
+    opacity: .6;
+    font-weight: 400;
+    /* margin-bottom: 4px; */
+}
+
+.unique-card li{
+    color: aliceblue;
+}
+.unique-card hr{
+    background-color: #123644;
+    opacity: .6;
+}
+
+.first-btn-card{
+    width: 80%;
+    display: block;
+    margin: 40px auto auto ;
+    color: blue;
+    padding: 7px 15px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    
+}
+
+.third-card-btn{
+    width: 80%;
+    display: block;
+    margin: 40px auto auto;
+    color: black;
+    padding: 7px 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 10px;
+
+}
+
+.unique-card button{
+        width: 80%;
+        display: block;
+        margin: 40px auto auto;
+        color: #fff;
+        padding: 7px 15px;
+        background-color: blue;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 10px;
+}
+
+
+.agenda {
+    /* background: #0d0d0d; */
+    background-color: #fff;
+    color: #ffffff;
+    padding: 80px 20px;
+}
+
+.container {
+    width: min(1100px, 90%);
+    margin: auto;
+}
+
+.agenda h2 {
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    text-align: center;
+    color: #747373;
+    max-width: 600px;
+    margin: 0 auto 50px;
+    line-height: 1.6;
+}
+
+.agenda-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.agenda-card {
+    background: transparent;
+    color: #393636;
+    border: 1px solid #938d8d;
+    /* border-left: 4px solid #1e90ff; */
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s ease; 
+}
+
+.agenda-card:hover {
+    transform: translateY(-6px);
+    border-color: #1e90ff;
+    box-shadow: 0 12px 25px rgba(30, 144, 255, 0.2);
+}
+
+.time {
+    display: inline-block;
+    background: #1e90ff;
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+
+.agenda-card h3 {
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+.agenda-card p {
+    color: #737171;
+    line-height: 1.6;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .agenda {
+        padding: 60px 20px;
+    }
+
+    .agenda h2 {
+        font-size: 2rem;
+    }
+
+}
+
+
+
+footer{
+    background-color: #101620;
+    /* height: 25vh; */
+}
+
+.topoffooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px ;
+    /* gap: 100px; */
+
+}
+
+.footerlogo img{
+    width: 80px;
+    opacity: .8;
+}
+
+.social-links{
+    /* background-color: blue; */
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #929aec;
+}
+
+footer hr{
+    width: 90%;
+    margin: 20px auto 0px;
+    opacity: .1;
+    
+}
+
+
+.bottomoffooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px 30px;
+    color: #fff;
+    opacity: .4;
+}
+
+.btmleft{
+    font-size: 11px;
+
+}
+
+.btmright{
+    display: flex;
+    font-size: 11px;
+    padding-right: 10px;
 }
