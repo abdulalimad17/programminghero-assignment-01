@@ -1,5 +1,8 @@
-<!-- PROMPT -->
-I'm building a developer's conference website. It has very simple layout using color black, white and blue. I added landing page, meet the speaker section and a section of buying spot. Now I need another section to add before I start to add the footer. Research some best websites featuring this kind of site and provide me a best choice 
+PROMPT
+
+I'm building a developer's conference website. It has very simple layout using color black, white and blue. I added landing page, meet the speaker section and a section of buying spot. Now I need another section to add before I start to add the footer. Research some best websites featuring this kind of site and provide me a best choice.
+
+You can also preview the code given by chat gpt in code option.
 
 <!-- I modified the design of the cards,
      changed the sections background color,

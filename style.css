@@ -11,7 +11,7 @@ html body{
     width: 100%;
 }
 
-                                /* NAV STYLES */
+                                             /* NAV BAR */
 
 nav{
     background-color: #fff;
@@ -50,7 +50,7 @@ nav{
     font-size: 13px;
 }
 
-                        /* HERO IMAGE AND TEXTS */
+                                   /* LANDING PAGE AND BANNER */
 
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
@@ -91,6 +91,9 @@ header{
 #heading p{
     color: #a8a2a2;
 }
+
+
+                                /* MEET THE SPEAKER SECTION */
 
 .meetspeaker{
     padding: 45px ;
@@ -136,6 +139,8 @@ header{
     color: #929090;
     font-size: 12px;
 }
+
+                                    /* BUYING SPOT */
 
 
 
@@ -292,6 +297,9 @@ header{
 }
 
 
+                                    /* AI GENARATED CODE */
+
+
 .agenda {
     /* background: #0d0d0d; */
     background-color: #fff;
@@ -377,7 +385,7 @@ header{
 
 }
 
-
+                                            /* FOOTER */
 
 footer{
     background-color: #101620;
