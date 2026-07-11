@@ -14,7 +14,7 @@ html body{
                                 /* NAV STYLES */
 
 nav{
-    background-color: rgb(181, 177, 177);
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
